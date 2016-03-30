@@ -7,22 +7,22 @@
 " Base 16 <%= @scheme %> Scheme by <%= @author %>
 
 " Hex colors for GUI and Neovim in TrueColor mode
-let s:hex00 = "<%= @base["00"]["hex"] %>"
-let s:hex01 = "<%= @base["01"]["hex"] %>"
-let s:hex02 = "<%= @base["02"]["hex"] %>"
-let s:hex03 = "<%= @base["03"]["hex"] %>"
-let s:hex04 = "<%= @base["04"]["hex"] %>"
-let s:hex05 = "<%= @base["05"]["hex"] %>"
-let s:hex06 = "<%= @base["06"]["hex"] %>"
-let s:hex07 = "<%= @base["07"]["hex"] %>"
-let s:hex08 = "<%= @base["08"]["hex"] %>"
-let s:hex09 = "<%= @base["09"]["hex"] %>"
-let s:hex0A = "<%= @base["0A"]["hex"] %>"
-let s:hex0B = "<%= @base["0B"]["hex"] %>"
-let s:hex0C = "<%= @base["0C"]["hex"] %>"
-let s:hex0D = "<%= @base["0D"]["hex"] %>"
-let s:hex0E = "<%= @base["0E"]["hex"] %>"
-let s:hex0F = "<%= @base["0F"]["hex"] %>"
+let s:hex00 = "#<%= @base["00"]["hex"] %>"
+let s:hex01 = "#<%= @base["01"]["hex"] %>"
+let s:hex02 = "#<%= @base["02"]["hex"] %>"
+let s:hex03 = "#<%= @base["03"]["hex"] %>"
+let s:hex04 = "#<%= @base["04"]["hex"] %>"
+let s:hex05 = "#<%= @base["05"]["hex"] %>"
+let s:hex06 = "#<%= @base["06"]["hex"] %>"
+let s:hex07 = "#<%= @base["07"]["hex"] %>"
+let s:hex08 = "#<%= @base["08"]["hex"] %>"
+let s:hex09 = "#<%= @base["09"]["hex"] %>"
+let s:hex0A = "#<%= @base["0A"]["hex"] %>"
+let s:hex0B = "#<%= @base["0B"]["hex"] %>"
+let s:hex0C = "#<%= @base["0C"]["hex"] %>"
+let s:hex0D = "#<%= @base["0D"]["hex"] %>"
+let s:hex0E = "#<%= @base["0E"]["hex"] %>"
+let s:hex0F = "#<%= @base["0F"]["hex"] %>"
 
 " Terminal color definitions
 let s:cterm00 = "00"
@@ -88,8 +88,8 @@ let s:p.visual.right     = [ [ s:base01, s:base0E ], [ s:base04, s:base02 ] ]
 let s:p.replace.right    = [ [ s:base01, s:base08 ], [ s:base04, s:base02 ] ]
 let s:p.inactive.right   = [ [ s:base03, s:base01 ] ]
 
-let s:p.normal.error    = [ [ s:base07, s:base08 ] ]
-let s:p.normal.warning  = [ [ s:base0F, s:base0A ] ]
+let s:p.normal.error    = [ [ s:base0A, s:base08 ] ]
+let s:p.normal.warning  = [ [ s:base08, s:base0A ] ]
 
 let s:p.tabline.left    = [ [ s:base05, s:base02 ] ]
 let s:p.tabline.middle  = [ [ s:base05, s:base01 ] ]
